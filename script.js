@@ -52,7 +52,9 @@ const button = document.getElementById("valentinesButton");
 
 button.addEventListener("click", () => {
     if (button.textContent === "Click Me! ❤") {
-      button.textContent = "❤ 1123 ❤"; // Cambia el texto del botón a "❤❤❤" al hacer clic
+      button.textContent = "❤ 1123 ❤"; // Cambia el texto del botón a "❤ 1123 ❤" al hacer clic
+      var audio = document.getElementById('backgroundMusic');
+      audio.play(); 
     }
   });
 
